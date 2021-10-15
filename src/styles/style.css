@@ -1,0 +1,45 @@
+body {
+	font-family: Arial;
+	margin: 0;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	background: rgb(0, 128, 255);
+	color: rgb(255, 255, 255);
+	width: 100%;
+	margin-bottom: 12px;
+}
+#title {
+	margin-left: 12px;
+}
+#scores {
+	font-size: 24px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: 12px;
+}
+
+#cards-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	width: calc(500px * 0.25);
+	height: calc(726px * 0.25);
+	margin: 4px;
+	cursor: pointer;
+}
+.card:hover {
+	margin: 3px;
+	border: 1px solid rgb(0, 128, 255);
+	border-radius: 8px;
+}
+
+#win-screen {
+	text-align: center;
+}
+#play-again-btn {
+	font-size: 20px;
+}
