@@ -1,0 +1,2 @@
+body{font-family:Arial;margin:0}#header{display:flex;align-items:center;background:#0080ff;color:#fff;width:100%;margin-bottom:12px}#title{margin-left:12px}#scores{font-size:20px;text-align:right;margin-left:auto;margin-right:12px}#high-score,#score{font-weight:700}#cards-container{display:flex;flex-wrap:wrap}.card{width:125px;height:181.5px;margin:4px;cursor:pointer}.card:hover{margin:3px;border:1px solid #0080ff;border-radius:8px}#win-screen{text-align:center}#play-again-btn{font-size:20px}
+/*# sourceMappingURL=main.6716fce6.chunk.css.map */
