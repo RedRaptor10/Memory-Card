@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Cards = (props) => {
-	const cardsPath = '/images/cards/';
+	const cardsPath = './images/cards/';
 	const ext = '.png';
 
 	//const newCards = randomizeArray(props.cards);
